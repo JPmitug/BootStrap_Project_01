@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BootStrapWebSite</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <style>
+    .map-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3 navbar-expand-lg sticky-lg-top">
+    <div class="container">
+      <a href="#" class="navbar-brand"> FrontEnd BootCamp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navmenu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#Hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Fundamentals">What You'll Learn</a></li>
+          <li class="nav-item"><a class="nav-link" href="#questions">Questions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Instructors">Instructors</a></li>
+        </ul>
+      </div>
+  </nav>
+  </div>
+
+  <section id="Hero" class="bg-dark">
+    <div class="container d-flex pt-5 px-4 text-center text-sm-start">
+      <div class="left-div text-light col-md-6 my-auto">
+        <h1>Become a <span class="text-warning">web developer</span></h1>
+        <p class="lead pt-2">Lorem ipsum dolor sit. Non ut, ex corrupti, consequuntur, sapiente laboriosam dolorum
+          expedita ipsum doloribus. Dolorem, expedita rem?</p>
+        <button class="btn btn-primary mb-3">Start The Enrollment</button>
+      </div>
+      <img src="showcase.svg" class="img-fluid w-50 col-sm-12 d-none d-sm-block">
+    </div>
+  </section>
+
+  <section id="newsletter" class="newsletter bg-primary ">
+    <div class="container p-2 justify-content-between d-md-flex text-center gap-3 py-md-4">
+      <h3 class="text-light w-100">Sign Up For Our Newsletter</h3>
+      <div class="input-group news-input">
+        <input type="email" class="form-control" placeholder="enter email" aria-label="enter email"
+          aria-describedby="button-addon2">
+        <button class="btn bg-dark text-light" type="button" id="button-addon2">Button</button>
+
+
+
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="Advantages">
+    <div class="boxes container mt-5 px-5">
+      <p class="display-5 text-center pb-2">advantages</p>
+      <div class="row text-center g-4">
+        <div class="box col-lg  bg-dark text-light mx-sm-3 ">
+          <div class="h1"><i class="bi bi-laptop"></i></div>
+          <h1>Virtual</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur asperiores rerum,
+            accusantium mollitia. Lorem ipsum dolor sit.</p>
+          <button class="btn btn-primary mb-3">Read More</button>
+        </div>
+
+        <div class="box col-lg  bg-dark text-light mx-sm-3">
+          <div class="h1"><i class="bi bi-person-bounding-box"></i></div>
+          <h1>Hybrid</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur asperiores rerum,
+            accusantium mollitia. Lorem ipsum dolor sit.</p>
+          <button class="btn btn-primary mb-3">Read More</button>
+        </div>
+
+        <div class="box col-lg  bg-dark text-light mx-sm-3">
+          <div class="h1"><i class="bi bi-person-plus-fill"></i></div>
+          <h1>In Person</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur asperiores rerum,
+            accusantium mollitia. Lorem ipsum dolor sit.</p>
+          <button class="btn btn-primary mb-3">Read More</button>
+        </div>
+      </div>
+      <hr class="mt-5">
+    </div>
+  </section>
+
+  <section id="Fundamentals" class="pt-5">
+    <div class="container mt-5">
+      <div class="row d-flex">
+        <div class="col-md px-5 my-auto">
+          <img class="img-fluid" src="fundamentals.svg" alt="">
+        </div>
+        <div class="col-md px-5 pt-5">
+          <h3>Learn The Fundamentals</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eaque deleniti fugit maxime,
+            nihil enim Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eaque deleniti fugit maxime,
+            nihil enim Lorem ipsum dolor sit amet. Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Atque, ducimus.</p>
+          <button class="btn btn-light fw-semibold mb-4">> Read More</button>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id="learn-react" class="bg-dark text-light pt-5 mt-5">
+  <div class="container mt-5">
+    <div class="row d-flex">
+      <div class="col-md px-5 pt-5">
+        <h3>Learn React</h3>
+        <p class="lead">Lorem ipsum dolor sit amet,fugit maxime, nihil enim Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+        <p class="lead">Lorem ipsum dolor sit amet, fugit maxime, nihil enim Lorem ipsum dolor sit nami amet. Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, ducimus.</p>
+        <button class="btn btn-light fw-semibold mb-5">> Read More</button>
+      </div>
+      <div class="col-md px-5 my-auto">
+        <img class="img-fluid" src="react.svg" alt="">
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="questions" class="questions p-5">
+    <div class="container">
+    <h2 class="text-center">Frequently Asked Questions</h2>
+    
+    <div class="accordion accordion-flush" id="Questions-one">
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseone" aria-expanded="false" aria-controls="flush-collapseone">
+            What programming languages should I learn first?
+          </button>
+        </h2>
+        <div id="flush-collapseone" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#Questions">
+          <div class="accordion-body">It depends on your goal and the type of development you want to pursue. For web
+            development, consider starting with HTML, CSS, and JavaScript. For software development, Python and Java are
+            popular choices.</div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            What is the best way to learn how to code?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#Questions">
+          <div class="accordion-body">Practicing by building projects, taking online courses, and participating in
+            coding communities can all be effective ways to learn how to code. Finding a mentor or a study group can
+            also be helpful.</div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            What resources can I use to improve my coding skills?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#Questions">
+          <div class="accordion-body"> There are many resources available, including online courses, coding tutorials,
+            developer forums, and books. You can also participate in coding challenges or build your own projects to
+            practice and improve your skills.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  </section>
+
+  <section id="Instructors" class="bg-primary p-5">
+      <div class="container">
+        <h2 class="text-center text-light">Our Instructors</h2>
+        <p class="lead text-center text-light"> Our instructors all have 5+ years working as a web developer in the industry</p>
+        
+        <div class="row g-4 mt-3">
+              <div class="col-md-6 col-lg-3 text-center">
+                  <div class="card bg-light">
+                      <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="" class="rounded-circle">
+                        <h3 class="card-title mb-3">John Doe</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab sit saepe, provident esse rerum?</p>
+                        <a><i class="bi bi-instagram mx-1"></i></a>
+                        <a><i class="bi bi-twitter mx-1"></i></a>
+                        <a><i class="bi bi-facebook mx-1"></i></a>
+                        <i class="bi bi-linkedin mx-1"></i>
+                      </div>
+                  </div> 
+              </div>
+
+              <div class="col-md-6 col-lg-3 text-center">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                      <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="" class="rounded-circle">
+                      <h3 class="card-title mb-3">Jane Doe</h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab sit saepe, provident esse rerum?</p>
+                      <a><i class="bi bi-instagram mx-1"></i></a>
+                      <a><i class="bi bi-twitter mx-1"></i></a>
+                      <a><i class="bi bi-facebook mx-1"></i></a>
+                      <i class="bi bi-linkedin mx-1"></i>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="col-md-6 col-lg-3 text-center">
+              <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="" class="rounded-circle">
+                    <h3 class="card-title mb-3">John Doe</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab sit saepe, provident esse rerum?</p>
+                    <a><i class="bi bi-instagram mx-1"></i></a>
+                    <a><i class="bi bi-twitter mx-1"></i></a>
+                    <a><i class="bi bi-facebook mx-1"></i></a>
+                    <i class="bi bi-linkedin mx-1"></i>
+                  </div>
+              </div> 
+          </div>
+
+          <div class="col-md-6 col-lg-3 text-center">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="" class="rounded-circle">
+                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab sit saepe, provident esse rerum?</p>
+                  <a><i class="bi bi-instagram mx-1"></i></a>
+                  <a><i class="bi bi-twitter mx-1"></i></a>
+                  <a><i class="bi bi-facebook mx-1"></i></a>
+                  <i class="bi bi-linkedin mx-1"></i>
+                </div>
+            </div> 
+        </div>
+
+
+        </div>         
+                  
+      </div>     
+  </section>
+
+  <section id="Contact" class="p5">
+    <div class="container p-5">
+      <div class="row g-4">
+          <div class="col-md text-center my-auto">
+            <h1 class="text-center mb-4">Contact Info</h1>
+            <address>
+              <strong>Israel, Tel-Aviv Ester Hamalka 7</strong>
+            <br>
+            jpmitug@gmail.com
+            <br>
+            052-885-7908
+            <br>
+          </address>
+          </div> 
+          
+          <div class="col-md">
+            <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.633098369469!2d34.7747836!3d32.07917099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b8743485aef%3A0xaaf44023fea47b8!2z15DXodeq16gg15TXntec15vXlCA3LCDXqtecINeQ15HXmdeRLdeZ16TXlQ!5e0!3m2!1siw!2sil!4v1675331500656!5m2!1siw!2sil" width="600" height="300" style="border:0;" frameborder=”0”  allowfullscreen="" aria-hidden="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+<section id="footer" class="bg-dark text-light p-4 text-center my-auto">
+<p class="lead">CopyRight &copy JPmitug 2023 </p>
+
+</section>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
